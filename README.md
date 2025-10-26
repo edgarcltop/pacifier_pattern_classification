@@ -2,27 +2,6 @@
 
 A comprehensive machine learning and statistical pattern classification project for analyzing and classifying pacifier-related patterns.
 
-## 📁 Project Structure
-pacifier_pattern_classification/
-├── images/ # Visual assets and diagrams
-│ └── book_link/
-│ └── applications/
-├── PDFs/ # Documentation and research papers
-├── clustering/
-│ └── hierarchical/ # Hierarchical clustering implementations
-├── data/ # Datasets and data files
-├── data_collecting/ # Data collection utilities
-├── data_fitting/
-│ └── regression/ # Regression analysis and modeling
-├── data_viz/ # Data visualization tools
-├── dimensionality_reduction/ # Feature reduction techniques
-├── evaluation/ # Model evaluation metrics
-├── machine_learning/ # Supervised learning implementations
-├── parameter_estimation_techniques/
-├── preprocessing/ # Data preprocessing pipelines
-├── resources/ # Additional resources and references
-└── stat_pattern_class/ # Statistical pattern classification
-
 
 ## 🚀 Features
 
