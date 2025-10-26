@@ -4,39 +4,7 @@
 
 <hr>
 **Tutorials, examples, collections, and everything else that falls into the categories: pattern classification, machine learning, and data mining.**
-<br>
-<br>
 
-
-<br>
-<br>
-
-# Sections
-
-
-- [Introduction to Machine Learning and Pattern Classification](#introduction-to-machine-learning-and-pattern-classification)
-- [Pre-Processing](#pre-processing)
-- [Model Evaluation](#model-evaluation)
-- [Parameter Estimation](#parameter-estimation)
-- [Machine Learning Algorithms](#machine-learning-algorithms)
-	- [Bayes Classification](#bayes-classification)
-	- [Logistic Regression](#logistic-regression)
-	- [Neural Networks](#neural-networks)
-	- [Ensemble Methods](#ensemble-methods)
-- [Clustering](#clustering)
-- [Collecting Data](#collecting-data)
-- [Data Visualization](#data-visualization)
-- [Statistical Pattern Classification Examples](#statistical-pattern-classification-examples)
-- [Books](#books)
-- [Talks](#talks)
-- [Applications](#applications)
-- [Resources](#resources)
-
-<br>
-
-
-
-<br>
 
 <img src="./Images/supervised_learning_flowchart.png" style="width: 700px; height:600px;">
 
