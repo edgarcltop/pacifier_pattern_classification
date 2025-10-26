@@ -17,7 +17,6 @@
 <br>
 
 ### Introduction to Machine Learning and Pattern Classification
-[[back to top](#sections)]
 
 - Predictive modeling, supervised machine learning, and pattern classification - the big picture [[Markdown](./machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md)]
 
@@ -35,7 +34,6 @@
 
 ### Pre-processing
 
-[[back to top](#sections)]
 
 - **Feature Extraction**
 	- Tips and Tricks for Encoding Categorical Features in Classification Tasks [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/feature_encoding.ipynb)]
@@ -61,7 +59,6 @@
 <br>
 
 ### Model Evaluation
-[[back to top](#sections)]
 
 - An Overview of General Performance Metrics of Binary Classifier Systems [[PDF](http://arxiv.org/pdf/1410.5330.pdf)]
 - **Cross-validation**
@@ -74,7 +71,6 @@
 <br>
 
 ### Parameter Estimation
-[[back to top](#sections)]
 
 - **Parametric Techniques**
     - Introduction to the Maximum Likelihood Estimate (MLE) [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/parameter_estimation_techniques/maximum_likelihood_estimate.ipynb)]
@@ -91,15 +87,7 @@
 
    - Non-Linear Regression
 
-<br>
-<hr>
-<br>
-
-
-
-
 ### Machine Learning Algorithms
-[[back to top](#sections)]
 
 
 #### Bayes Classification
@@ -145,7 +133,6 @@
 
 
 ## Collecting Data
-[[back to top](#sections)]
 
 - Collecting Fantasy Soccer Data with Python and Beautiful Soup [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_collecting/parse_dreamteamfc_data.ipynb)]
 
@@ -158,7 +145,6 @@
 <br>
 
 ## Data Visualization
-[[back to top](#sections)]
 
 - Exploratory Analysis of the Star Wars API  [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_viz/swapi_viz.ipynb)]
 
@@ -179,7 +165,6 @@
 
 
 ### Statistical Pattern Classification Examples
-[[back to top](#sections)]
 
 - **Supervised Learning**
 
@@ -198,29 +183,8 @@
 			- Ex7: 2-classes, equal variances, equal priors [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/7_stat_superv_parametric.ipynb)]
 
     - Non-Parametric Techniques
-<br>
-<hr>
-<br>
-
-## Books
-[[back to top](#sections)]
-
-#### Python Machine Learning
-
-<a href='http://sebastianraschka.com/publications.html'>![](./Images/books/pymle_cover.png)</a>
-
-- [Amazon link](http://www.amazon.com/Python-Machine-Learning-Sebastian-Raschka/dp/1783555130/ref=sr_1_2?ie=UTF8&qid=1437754343&sr=8-2&keywords=python+machine+learning+essentials)
-- [Publisher Link](https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning)
-- [GitHub Code Repository](https://github.com/rasbt/python-machine-learning-book)
-
-
-
-<br>
-<hr>
-<br>
 
 ## Talks
-[[back to top](#sections)]
 
 #### An Introduction to Supervised Machine Learning and Pattern Classification: The Big Picture
 
@@ -231,8 +195,6 @@
 
 [[Download PDF](https://github.com/rasbt/pattern_classification/raw/master/PDFs/nextgentalk022015.pdf)]
 
-<br>
-<br>
 
 #### MusicMood - Machine Learning in Automatic Music Mood Prediction Based on Song Lyrics
 
@@ -244,12 +206,7 @@
 [[Download PDF](https://github.com/rasbt/pattern_classification/raw/master/PDFs/musicmood20140912.pdf)]
 
 
-<br>
-<hr>
-<br>
-
 ## Applications
-[[back to top](#sections)]
 
 #### MusicMood - Machine Learning in Automatic Music Mood Prediction Based on Song Lyrics
 
