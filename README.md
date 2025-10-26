@@ -1,227 +1,72 @@
-
-
-![logo](./Images/logo.png)
-
-<hr>
-**Tutorials, examples, collections, and everything else that falls into the categories: pattern classification, machine learning, and data mining.**
-
-
-<img src="./Images/supervised_learning_flowchart.png" style="width: 700px; height:600px;">
-
-[[Download a PDF version](https://github.com/rasbt/pattern_classification/raw/master/PDFs/supervised_learning_flowchart.pdf)] of this flowchart.
-
-<br>
-<br>
-<br>
-<hr>
-<br>
-
-### Introduction to Machine Learning and Pattern Classification
-
-- Predictive modeling, supervised machine learning, and pattern classification - the big picture [[Markdown](./machine_learning/supervised_intro/introduction_to_supervised_machine_learning.md)]
-
-- Entry Point: Data - Using Python's sci-packages to prepare data for Machine Learning tasks and other data analyses [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/scikit-learn/python_data_entry_point.ipynb)]
-
-- An Introduction to simple linear supervised classification using `scikit-learn` [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/scikit-learn/scikit_linear_classification.ipynb)]
-
-
-
-<br>
-<br>
-<br>
-<hr>
-<br>
-
-### Pre-processing
-
-
-- **Feature Extraction**
-	- Tips and Tricks for Encoding Categorical Features in Classification Tasks [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/feature_encoding.ipynb)]
-- **Scaling and Normalization**
-	- About Feature Scaling: Standardization and Min-Max-Scaling (Normalization) [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/preprocessing/about_standardization_normalization.ipynb)]
-
-
-- **Feature Selection**
-	- Sequential Feature Selection Algorithms [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/dimensionality_reduction/feature_selection/sequential_selection_algorithms.ipynb)]
-
-- **Dimensionality Reduction**
-	- Principal Component Analysis (PCA) [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/dimensionality_reduction/projection/principal_component_analysis.ipynb)]
-	- The effect of scaling and mean centering of variables prior to a PCA [[PDF](https://github.com/rasbt/pattern_classification/raw/master/dimensionality_reduction/projection/scale_center_pca/scale_center_pca.pdf)] [[HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/rasbt/pattern_classification/master/dimensionality_reduction/projection/scale_center_pca/scale_center_pca.html)]
-	- PCA based on the covariance vs. correlation matrix  [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/dimensionality_reduction/projection/pca_cov_cor.ipynb)]
-  - Linear Discriminant Analysis (LDA) [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/dimensionality_reduction/projection/linear_discriminant_analysis.ipynb)]
-	- Kernel tricks and nonlinear dimensionality reduction via PCA [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/dimensionality_reduction/projection/kernel_pca.ipynb)]
-
-- **Representing Text**
-	- Tf-idf Walkthrough for scikit-learn [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/scikit-learn/tfidf_scikit-learn.ipynb)]
-
-<br>
-<hr>
-<br>
-
-### Model Evaluation
-
-- An Overview of General Performance Metrics of Binary Classifier Systems [[PDF](http://arxiv.org/pdf/1410.5330.pdf)]
-- **Cross-validation**
-	- Streamline your cross-validation workflow - scikit-learn's Pipeline in action [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/scikit-learn/scikit-pipeline.ipynb)]
-- Model evaluation, model selection, and algorithm selection in machine learning - Part I [[Markdown](evaluation/model-evaluation/model-evaluation-selection-part1.md)]
-- Model evaluation, model selection, and algorithm selection in machine learning - Part II [[Markdown](evaluation/model-evaluation/model-evaluation-selection-part2.md)]
-
-<br>
-<hr>
-<br>
-
-### Parameter Estimation
-
-- **Parametric Techniques**
-    - Introduction to the Maximum Likelihood Estimate (MLE) [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/parameter_estimation_techniques/maximum_likelihood_estimate.ipynb)]
-    - How to calculate Maximum Likelihood Estimates (MLE) for different distributions [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/parameter_estimation_techniques/max_likelihood_est_distributions.ipynb)]
-
-- **Non-Parametric Techniques**
-	- Kernel density estimation via the Parzen-window technique [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/parameter_estimation_techniques/parzen_window_technique.ipynb)]
-	- The K-Nearest Neighbor (KNN) technique
-
-
-- **Regression Analysis**
-	- Linear Regression
-		- Least-Squares fit [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_fitting/regression/linregr_least_squares_fit.ipynb)]
-
-   - Non-Linear Regression
-
-### Machine Learning Algorithms
-
-
-#### Bayes Classification
-
-- Naive Bayes and Text Classification I - Introduction and Theory [[PDF](http://arxiv.org/pdf/1410.5329.pdf)]
-#### Logistic Regression
-
-- Out-of-core Learning and Model Persistence using scikit-learn
-[[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/scikit-learn/outofcore_modelpersistence.ipynb)]
-
-#### Neural Networks
-
-- Artificial Neurons and Single-Layer Neural Networks - How Machine Learning Algorithms Work Part 1 [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/singlelayer_neural_networks/singlelayer_neural_networks.ipynb)]
-
-- Activation Function Cheatsheet [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/neural_networks/ipynb/activation_functions.ipynb)]
-
-#### Ensemble Methods
-
-- Implementing a Weighted Majority Rule Ensemble Classifier in scikit-learn  [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/scikit-learn/ensemble_classifier.ipynb)]
-
-#### Decision Trees
-
-- Cheatsheet for Decision Tree Classification [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/machine_learning/decision_trees/decision-tree-cheatsheet.ipynb)]
-
-<br>
-<hr>
-<br>
-
-### Clustering
-[[back to top](#sections)]
-
-- **Protoype-based clustering**
-- **Hierarchical clustering**
-	- Complete-Linkage Clustering and Heatmaps in Python [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/clustering/hierarchical/clust_complete_linkage.ipynb)]
-- **Density-based clustering**
-- **Graph-based clustering**
-- **Probabilistic-based clustering**
-
-<br>
-<hr>
-<br>
-
-
-
-## Collecting Data
-
-- Collecting Fantasy Soccer Data with Python and Beautiful Soup [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_collecting/parse_dreamteamfc_data.ipynb)]
-
-- Download Your Twitter Timeline and Turn into a Word Cloud Using Python [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_collecting/twitter_wordcloud.ipynb)]
-
-- Reading MNIST into NumPy arrays [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_collecting/reading_mnist.ipynb)]
-
-<br>
-<hr>
-<br>
-
-## Data Visualization
-
-- Exploratory Analysis of the Star Wars API  [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_viz/swapi_viz.ipynb)]
-
-![](./Images/data_viz/data_viz_swapi_1.png)
-
-- Matplotlib examples -Exploratory data analysis of the Iris dataset [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_viz/matplotlib_viz_gallery.ipynb)]
-
-![](./Images/data_viz/data_viz_iris_1.png)
-
-- Artificial Intelligence publications per country
-
-[[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/data_viz/ai_publication_chloropleth/ai_publication_chloropleth.ipynb)] [[PDF](./data_viz/ai_publication_chloropleth/images/ai_publication_chloropleth_small.pdf)]
-
-![](./data_viz/ai_publication_chloropleth/images/ai_publication_chloropleth_small.png)
-<br>
-<hr>
-<br>
-
-
-### Statistical Pattern Classification Examples
-
-- **Supervised Learning**
-
-    - Parametric Techniques
-    	- Univariate Normal Density
-    		- Ex1: 2-classes, equal variances, equal priors [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/1_stat_superv_parametric.ipynb)]
-			- Ex2: 2-classes, different variances, equal priors [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/2_stat_superv_parametric.ipynb)]
-			- Ex3: 2-classes, equal variances, different priors [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/3_stat_superv_parametric.ipynb)]
-			- Ex4: 2-classes, different variances, different priors, loss function [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/4_stat_superv_parametric.ipynb)]
-			- Ex5: 2-classes, different variances, equal priors, loss function, cauchy distr. [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/5_stat_superv_parametric.ipynb)]
-
-
-
-    	- Multivariate Normal Density
-			- Ex5: 2-classes, different variances, equal priors, loss function [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/5_stat_superv_parametric.ipynb)]
-			- Ex7: 2-classes, equal variances, equal priors [[IPython nb](http://nbviewer.ipython.org/github/rasbt/pattern_classification/blob/master/stat_pattern_class/supervised/parametric/7_stat_superv_parametric.ipynb)]
-
-    - Non-Parametric Techniques
-
-## Talks
-
-#### An Introduction to Supervised Machine Learning and Pattern Classification: The Big Picture
-
-
-<a href='http://www.slideshare.net/SebastianRaschka/nextgen-talk-022015'>![](./Images/talks/nextgentalk022015.png)</a>
-
-[[View on SlideShare](http://www.slideshare.net/SebastianRaschka/nextgen-talk-022015)]
-
-[[Download PDF](https://github.com/rasbt/pattern_classification/raw/master/PDFs/nextgentalk022015.pdf)]
-
-
-#### MusicMood - Machine Learning in Automatic Music Mood Prediction Based on Song Lyrics
-
-<a href='http://www.slideshare.net/SebastianRaschka/musicmood-20140912'> ![](./Images/talks/musicmood20140912.png)</a>
-
-[[View on SlideShare](http://www.slideshare.net/SebastianRaschka/musicmood-20140912)]
-
-
-[[Download PDF](https://github.com/rasbt/pattern_classification/raw/master/PDFs/musicmood20140912.pdf)]
-
-
-## Applications
-
-#### MusicMood - Machine Learning in Automatic Music Mood Prediction Based on Song Lyrics
-
-This project is about building a music recommendation system for users who want to listen to happy songs. Such a system can not only be used to brighten up one's mood on a rainy weekend; especially in hospitals, other medical clinics, or public locations such as restaurants, the MusicMood classifier could be used to spread positive mood among people.
-
-![](./Images/applications/musicmood_1.png)
-
-[[musicmood GitHub Repository](https://github.com/rasbt/musicmood)]
-
-<br>
-
-#### mlxtend - A library of extension and helper modules for Python's data analysis and machine learning libraries.
-
-![](./Images/applications/mlxtend_1.png)
-
-[[mlxtend GitHub Repository](https://github.com/rasbt/mlxtend)]
-
-- A matrix cheatsheat for Python, R, Julia, and MATLAB  [[HTML](http://sebastianraschka.com/Articles/2014_matrix_cheatsheet_table.html)]
+# Pacifier Pattern Classification
+
+A comprehensive machine learning and statistical pattern classification project for analyzing and classifying pacifier-related patterns.
+
+## 📁 Project Structure
+pacifier_pattern_classification/
+├── images/ # Visual assets and diagrams
+│ └── book_link/
+│ └── applications/
+├── PDFs/ # Documentation and research papers
+├── clustering/
+│ └── hierarchical/ # Hierarchical clustering implementations
+├── data/ # Datasets and data files
+├── data_collecting/ # Data collection utilities
+├── data_fitting/
+│ └── regression/ # Regression analysis and modeling
+├── data_viz/ # Data visualization tools
+├── dimensionality_reduction/ # Feature reduction techniques
+├── evaluation/ # Model evaluation metrics
+├── machine_learning/ # Supervised learning implementations
+├── parameter_estimation_techniques/
+├── preprocessing/ # Data preprocessing pipelines
+├── resources/ # Additional resources and references
+└── stat_pattern_class/ # Statistical pattern classification
+
+
+## 🚀 Features
+
+- **Comprehensive Data Analysis**: From collection to visualization
+- **Multiple ML Techniques**: Supervised and unsupervised learning approaches
+- **Dimensionality Reduction**: PCA and other feature reduction methods
+- **Model Evaluation**: Extensive evaluation metrics and validation techniques
+- **Statistical Pattern Classification**: Advanced statistical methods for pattern recognition
+
+## 🛠️ Technical Stack
+
+- **Primary Language**: Jupyter Notebook (96.1%)
+- **Supporting Languages**: HTML (2.9%), Other (1.0%)
+- **ML Frameworks**: Various machine learning libraries and tools
+- **Data Processing**: Comprehensive preprocessing pipelines
+
+## 📚 Key Components
+
+### Machine Learning
+- Introduction to supervised machine learning
+- Model training and evaluation
+- Parameter estimation techniques
+
+### Data Processing
+- Data collection with eigenpair tie handling
+- Data preprocessing and normalization
+- Feature engineering and selection
+
+### Analysis Techniques
+- Clustering algorithms (hierarchical clustering)
+- Regression analysis
+- Dimensionality reduction methods
+- Statistical pattern classification
+
+### Visualization
+- Advanced data visualization tools
+- AC and MC analysis information
+- Model performance visualization
+
+## 🔧 Installation & Usage
+
+1. Clone the repository:
+```bash
+git clone https://github.com/username/pacifier_pattern_classification.git
+cd pacifier_pattern_classification
+
+pip install -r requirements.txt
